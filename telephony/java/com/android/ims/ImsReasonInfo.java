@@ -241,6 +241,24 @@ public class ImsReasonInfo implements Parcelable {
     public static final int CODE_ANSWERED_ELSEWHERE = 1014;
 
     /**
+     * For VICE - Call Pull request has failed
+     */
+    public static final int CODE_CALL_PULL_OUT_OF_SYNC = 1015;
+
+    /**
+     * For VICE - Call has been pulled from primary to secondary
+     */
+    public static final int CODE_CALL_END_CAUSE_CALL_PULL = 1016;
+
+    /**
+     * Supplementary services (HOLD/RESUME) failure error codes.
+     * Values for Supplemetary services failure - Failed, Cancelled and Re-Invite collision.
+     */
+    public static final int CODE_SUPP_SVC_FAILED = 1201;
+    public static final int CODE_SUPP_SVC_CANCELLED = 1202;
+    public static final int CODE_SUPP_SVC_REINVITE_COLLISION = 1203;
+
+    /**
      * Network string error messages.
      * mExtraMessage may have these values.
      */
